@@ -70,7 +70,7 @@ Adding animations would make the game feel more lively too. Also, I might let yo
 
 ## 🎥 Demo/Preview
 
-https://github.com/mirayatech/BTC-Predictor/assets/71933266/987b4872-1105-4b36-9123-5e4205aec0fb
+https://github.com/user-attachments/assets/71f0a231-d73a-4181-9e15-67fce6ae55b3
 
 ## 🚦 Running the Project
 

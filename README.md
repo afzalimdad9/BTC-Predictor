@@ -46,13 +46,13 @@ To get the current Bitcoin price, I used the fetch method from a URL: "https://a
 
 I used WebSocket from [Coinbase Cloud](https://docs.cloud.coinbase.com/exchange/docs/websocket-overview) and a library called [ReconnectingWebSocket](https://github.com/joewalnes/reconnecting-websocket) to get real-time Bitcoin price updates. It connected to 'wss://ws-feed.pro.coinbase.com' and received live updates from Coinbase cloud whenever the Bitcoin price changed.
 
-## 💭 Process:
+## 💭 Process
 
 I started by focusing on the game's features and testing. In the beginning, I didn't focus too much on how it looked.
 
 I started by creating the authentication components, including their functionalities, so I could save each user's data and their initial score, which is 0, in the backend.
 
-After that, I worked on the game page. At first, I used random numbers for the price (Math.random()) and buttons. Then, I set up the countdown timer. When the timer ends, a new price shows, and you can make your guess. Initially, the console.log was the only place to see if your guess was right or wrong. Later, I added notifications on the screen to tell you whether your guess was correct.
+After that, I worked on the game page. At first, I used random numbers for the price (`Math.random()`) and buttons. Then, I set up the countdown timer. When the timer ends, a new price shows, and you can make your guess. Initially, the console.log was the only place to see if your guess was right or wrong. Later, I added notifications on the screen to tell you whether your guess was correct.
 
 One tricky part was finding a 3rd-party library to provide real Bitcoin prices because many of them charged money, but I finally found one that worked well and was free. After setting up real-time Bitcoin prices, I moved to the backend to save the scores. Lastly, I created the home pages and styled the whole app.
 

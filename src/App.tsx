@@ -7,9 +7,9 @@ import { Spinner } from "./components/Spinner/Spinner";
 
 const Game = lazy(() => import("./components/Game/Game"));
 const Home = lazy(() => import("./components/Home/Home"));
-const SignIn = lazy(() => import("./components/Authentication/SingIn"));
+const SignIn = lazy(() => import("./components/Authentication/SignIn"));
 const SignUp = lazy(() => import("./components/Authentication/SignUp"));
-const NotFound = lazy(() => import("./components/NotFoud"));
+const NotFound = lazy(() => import("./components/NotFound"));
 
 export default function App() {
   return (
